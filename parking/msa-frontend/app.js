@@ -12,7 +12,7 @@ let port = 3000;
 // let session = require('express-session');
 const handlebars = require('express-handlebars');
 
-let indexRouter = require('./public/index.js');
+let indexRouter = require('./public');
 
 let app = express();
 
